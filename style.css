@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    background-image: url("bg.jpg");
+    text-align: center;
+}
+
+#kolo {
+    color: white;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.116);
+    top: 670px;
+    left: 5%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 5px gold solid;
+    box-shadow: 0px 0px 5px 5px #666;
+}
+
+#icon {
+    position: absolute;
+    width: 70px;
+    border-radius: 10px;
+    left: 50%;
+    margin-left: -25px;
+    top: 680px;
+    box-shadow: 0px 0px 5px 5px #666;
+}
+
+hr {
+    left: 5%;
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 660px;
+}
+
+.balls {
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+
+#bigBall {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #999;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -127px;
+    top: 90px;
+    background-color: rgba(255, 255, 255, 0.089);
+    box-shadow: 0px 0px 5px 5px #555;
+    transition: 1s;    
+}
+
+#bigBallNum {
+    visibility: hidden;
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 35px;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 50px;
+    border-radius: 50%;
+    border: 10px solid #999;
+}
+
+
+.kvota {
+    color: white;
+    font-size: medium;
+    position: absolute;
+    left: 50%;
+}
+
+
+#ball3 {
+    margin-left: -30px;
+}
+
+#ball2 {
+    margin-left: -100px;
+    top: 30px;
+}
+
+#ball4 {
+    margin-left: 40px;
+    top: 30px;
+}
+
+#ball5 {
+    margin-left: 100px;
+    top: 70px;
+}
+
+#ball1 {
+    margin-left: -160px;
+    top: 70px;
+}
+
+
+
+
+#ball6,#ball7, #ball8, #ball9, #ball10, #ball11, #ball12{
+    margin-left: -600px;
+}
+
+#ball13, #ball14, #ball15, #ball16, #ball17 {
+    margin-left: -400px;
+
+}
+
+#ball18, #ball19, #ball20 {
+    margin-left: -200px;
+}
+
+#ball21, #ball22, #ball23 {
+    margin-left: 130px;
+}
+
+#ball24, #ball25, #ball26, #ball27, #ball28 {
+    margin-left: 330px;
+
+}
+
+#ball29,#ball30, #ball31, #ball32, #ball33, #ball34, #ball35{
+    margin-left: 530px;
+}
+
+
+
+
+#kvota6, #kvota7, #kvota8, #kvota9, #kvota10, #kvota11, #kvota12 {
+    margin-left: -539px;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#kvota13, #kvota14, #kvota15, #kvota16, #kvota17 {
+    margin-left: -338px;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 34px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+#kvota18, #kvota19, #kvota20 {
+    margin-left: -138px;
+    margin-top: 17px;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#kvota21, #kvota22, #kvota23 {
+    margin-left: 94px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#kvota24, #kvota25, #kvota26, #kvota27, #kvota28 {
+    margin-left: 294px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#kvota29,#kvota30, #kvota31, #kvota32, #kvota33, #kvota34, #kvota35{
+    margin-left: 494px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+
+
+#ball6, #kvota6, #ball29, #kvota29 {
+    top: 60px;
+}
+#ball7, #kvota7, #ball30, #kvota30 {
+    top: 140px;
+}
+#ball8, #ball13, #kvota8, #kvota13, #ball24, #ball31, #kvota24, #kvota31 {
+    top: 220px;
+}
+#ball9, #ball14, #kvota9, #kvota14, #ball25, #ball32, #kvota25, #kvota32 {
+    top: 300px;
+}
+#ball10, #ball15, #ball18, #ball21, #ball26, #ball33, #kvota10, #kvota15, #kvota18, #kvota21, #kvota26, #kvota33 {
+    top: 380px;
+}
+#ball11, #ball16, #ball19, #ball22, #ball27, #ball34, #kvota11, #kvota16, #kvota19, #kvota22, #kvota27, #kvota34 {
+    top: 460px;
+}
+#ball12, #ball17, #ball20, #ball23, #ball28, #ball35, #kvota12, #kvota17, #kvota20, #kvota23, #kvota28, #kvota35 {
+    top: 540px;
+}
+
+
+
+
+
+.blue {
+    background-color: #111;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 13px solid blue;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px rgb(18, 35, 99);
+}
+
+.red {
+    background-color: #111;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 13px solid red;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px rgb(109, 19, 19);
+}
+
+.limegreen {
+    background-color: #111;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 13px solid limegreen;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px rgb(14, 107, 36);
+}
+
+.purple {
+    background-color: #111;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 13px solid rgb(179, 38, 179);
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px rgb(107, 14, 126);
+}
+
+.white {
+    background-color: #111;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 13px solid white;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px #777;
+}
+
+.yellow {
+    background-color: #111;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 13px solid yellow;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px rgb(95, 110, 28);
+}
+
+.orange {
+    background-color: #111;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 13px solid orange;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px rgb(92, 83, 1);
+}
+
+.black {
+    background-color: #111;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: larger;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+    border: 13px solid #222;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+
+
+
+button {
+    position: absolute;
+    top: 700px;
+    left: 1150px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+#izaslo {
+    position: absolute;
+    top: 690px;
+    left: 300px;
+    color: white;
+}
+
+#logo {
+    position: absolute;
+    top: 685px;
+    left: 750px;
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#text1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#line {
+    position: absolute;
+    top: 100px;
+    margin-bottom: 90px;
+    width: 90%;
+}
+
+input {
+    background-color: #111;
+    font-size: larger;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #444;
+}
+
+label {
+    color: white;
+    left: 20px;
+    font-size: larger;
+}
+
+#dugme {
+    position: relative;
+    top: 80px;
+    left: 0px
+
+}
+
+#form {
+    background-color: rgba(0, 0, 0, 0.349);
+    padding: 20px;
+}
